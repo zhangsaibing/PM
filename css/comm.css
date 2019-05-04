@@ -1,0 +1,11 @@
+/*内外边距清零*/
+body,div,ul,li,h1,h2,h3,h4,h5,h6{
+   margin:0;padding:0;
+}
+/*去掉所有ul的点*/
+ul li{
+   list-style: none;	
+}
+a{
+   text-decoration:none;
+}

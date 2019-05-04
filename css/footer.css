@@ -1,0 +1,106 @@
+/* 底部共有样式 */
+.footer-catalogs{
+  width: 100%;
+  min-width:1200px;
+  overflow: visible;
+  background: #222;
+  color: #fff;
+}
+/*底部上半部*/
+.catalogs-list{
+  height: 188px;
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 35px 0 32px 0;
+}
+/* div宽跟浮动 */
+.catalogs-listbox{
+  width: 160px;
+  float: left;
+}
+/* div里所有h4共有样式*/
+.catalogs-listbox h4{
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 44px;
+}
+/* div里的li的共有样式 */
+.catalogs-listbox li{
+  width:80px;
+  float: left;
+  font-size: 12px;
+  color: #cccccc;
+  line-height: 28px;
+}
+/* a标签样式 */
+.catalogs-listbox li a{
+  color: #cccccc;
+}
+/* 设置后边div的宽 */
+.catalogs-listbox2{
+  width: 159px;
+}
+/* 设置div的外边距 */
+.catalogs-listbox1{
+  margin-right: 76px;
+}
+/* 二维码部分的样式*/
+.catalogs-code{ 
+  display: flex;
+  margin-top: 16px;
+  position: relative;
+  top:-9px;
+}
+.catalogs-code img{
+  height: 37px;
+  margin-right: 12px;
+}
+.catalogs-qrcode{
+  width: 96px;
+}
+/* 友情链接部分 */
+.footer-link{
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 34px 0 42px 0;
+  font-size: 12px;
+  border-top: 1px solid #4e4f57;
+}
+/* 底部备案样式 */
+.footer-link span{ 
+  width: 65px;
+  float: left;
+  line-height: 24px;
+}
+.footer-link div{
+  width: 1135px;
+  float: left;
+}
+.footer-link a{
+  color: #ccc;
+  line-height: 24px;
+  padding: 0 7px;
+  display: inline-block;
+}
+.bureau{
+  width: 100%;
+  background: #1a1a1a;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  padding: 22px 0 24px 0;
+  min-width: 1200px;
+}
+.bureau p{
+  line-height: 20px;
+margin-top: 7px;
+}
+.bureau span{
+  margin: 0 20px;
+}
+.bureau img{
+  height: 20px;
+}

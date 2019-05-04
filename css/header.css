@@ -1,0 +1,210 @@
+/*头部共有样式*/
+#lead{
+    width:100%;height:34px;
+    background:#f5f5f5;
+    min-width: 1200px;
+
+}
+/*头部导航栏内部*/
+.lead-internal{
+    height: 24px;
+    margin: 0 auto;
+    padding: 12px 0 0;
+    font-size: 12px;
+    color: #666;
+    width: 1200px;
+}
+/*左部分ul li 浮动和高度*/
+.lead-internal-left ul li{
+    line-height:12px;
+    float: left; /*左浮动*/
+}
+/*头部导航栏内部a*/
+.lead-internal-left a{
+    text-decoration:none;
+    margin-right:30px;
+}
+/*头部的图片*/
+.left-img{
+    height: 12px;
+    vertical-align:bottom;/*垂直对齐*/
+    margin-left: 5px;
+}
+/*a标签连接伪类*/
+.text-lvha:link{
+    color:#666;
+}
+.text-lvha:visited{
+    color:#666;
+}
+.text-lvha:hover{
+    color:#f83244;
+}
+/*右边部分导航栏*/
+.lead-internal-right{
+    float:right;
+    margin-right: -30px;
+}
+/*右部分浮动*/
+.lead-internal-right ul li{
+    line-height:12px;
+    margin-right: 30px;
+    float:left;
+}
+/*头部客服电话部分*/
+.lead-internal-right>ul>.call{
+    padding-left:30px;
+    border-left: 1px solid #ccc;
+}
+/* 下半部 */
+#lead-bottom{
+    width:100%;
+    background-color:#fff;
+}
+.bottom{
+    width: 1200px;height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    position: relative; 
+}
+
+.bottom-left{
+    width: 240px; height: 45px;
+    padding-top: 19px;
+    position: relative;
+}
+.bottom-logo{
+    width: 130px;height: 45px;
+    margin: 0 22px 0 0;
+}
+.logo-side{
+    width: 78px;height: 12px;
+    margin: 0 6px 0 0;
+    font-size: 12px;
+    color: #666;
+    cursor: pointer;
+    position: absolute;
+    top: 35px;
+}
+/* 下半部中间部分 */
+.dottom-middle{
+    width:748px;height:48px;
+    position: relative;
+    left:235px;bottom:37px;
+}
+.dottom-middle>.common{
+    margin: 0 16px;
+    height: 100%;
+    font-size: 16px;
+    line-height: 35px;
+    cursor: pointer;
+    float: left;
+    position: relative;
+}
+.common:first-child{
+    border-bottom: 2px solid #f83244;
+}
+.common{
+    border-bottom: 2px solid transparent;
+}
+.common:hover{
+    border-bottom: 2px solid #f83244;
+}
+.colour{
+    width: 100%;height: 100%;
+    padding: 0 4px;
+    color: #f83244;
+}
+.colour-link{
+    width: 100%;height: 100%;
+    padding: 0 4px;
+    color: #000;
+    position: relative;
+}
+.colour-link:hover{
+    width: 100%;
+    height: 100%;
+    color: #f83244;
+}
+/* 结婚请柬图片 */
+.colour-link-hot{
+    width: 33px;height: 21px;
+    position:absolute;
+    top:-22px;
+    right:-5px;
+}
+.colour-link-imge{
+    width: 9px;height: 5px;
+    position: absolute;
+    top: -11px;right: -15px;
+}
+/* 下拉菜单 */
+.common-menu{
+  display: none;
+  position: absolute;
+  left: -20px;
+  z-index: 20;
+  padding: 12px;
+  width: 96px;
+  background: #000;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 28px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 2px;
+}
+/*菜单内部样式*/
+.common-menu-item{
+   text-align: center;
+   width: 100%;
+   padding: 12px 0;
+   font-size: 16px;
+   line-height: 16px;
+   color: #000000;
+   position: relative;
+}
+/*菜单内部样式图片*/
+.colour-link-img{
+    position: absolute;
+    right:-18px;
+    top:-9px;
+}
+/* 搜索框的样式 */
+.bottom-search{
+    width: 220px;height: 40px;
+    border-radius: 2px;
+    float: right;
+    position: relative;
+    bottom: 90px;
+}
+.bottom-search-box{
+    position: relative;
+    height: 100%;
+}
+.bottom-input{
+    position: absolute;
+    left: 0px;
+    margin: 0px;padding: 0 0 0 14px;
+    width:100%;height: 40px;
+    border: none;
+    outline: 0;
+    border-radius: 3px;
+    background: #f5f5f5;
+    color: #333 !important;
+    font-size: 14px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.bottom-button{
+    position: absolute;
+    right: 0px;
+    margin: 0;padding: 0;
+    width: 40px;height: 40px;
+    border: none;
+    background-image: url(../images/o_1crmn06c31j09j1i1smb1rqudejj.png);
+    background-size: 18px 18px;
+    background-color: #f83244;
+    background-repeat: no-repeat;
+    background-position: 11px;
+    cursor: pointer;
+    border-radius: 0 2px 2px 0;
+}
